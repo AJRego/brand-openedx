@@ -1,5 +1,11 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+body, .window-wrap {
+  background-color: #ebeae6 !important;
+}
+
+
 $primary: #ee8166;
 $primary-light: #d5d5cd;
 $text-color: #226471;
