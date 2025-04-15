@@ -1,6 +1,58 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
+// Base styling
 body {
   background-color: #ebeae6 !important;
+  color: #226471 !important;
+}
+
+// Fix footer alignment
+footer, .footer {
+  background-color: #f4f4f2 !important;
+  padding: 20px 0 !important;
+  margin-top: 30px !important;
+  width: 100% !important;
+  position: relative !important;
+}
+
+// Action buttons styling
+.btn-primary, 
+.btn-brand, 
+.btn-action {
+  background-color: #ee8166 !important;
+  border-color: #ee8166 !important;
+}
+
+// Informational buttons
+.btn-outline-primary,
+.btn-outline-brand {
+  color: #ef8266 !important;
+  border-color: #ef8266 !important;
+}
+
+// Informational banners
+.alert-info, 
+.banner-info {
+  background-color: rgba(239, 130, 102, 0.35) !important;
+}
+
+// Course cards and information panels
+.card, 
+.course-card {
+  border-color: #ef8266 !important;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: #226471 !important;
+}
+
+// Links
+a {
+  color: #226471 !important;
+  
+  &:hover {
+    color: #ef8266 !important;
+  }
 }
